@@ -80,9 +80,9 @@ ul{
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  text-align: center;
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
 }
 
 .wrapper {
@@ -510,6 +510,7 @@ list-style: none;
 
 .logo-white {
   color: var(--title-color);
+      margin-bottom: 9px;
 }
 
 .footer-address {
@@ -524,7 +525,7 @@ list-style: none;
 
 .footer-list {
   display: inline-block;
-  margin-bottom: 9px;
+ 
 }
 
 .footer-social {
@@ -618,7 +619,7 @@ list-style: none;
 .projects-filter {
 display: flex;
 justify-content: center;
- margin-bottom: 34px;
+ margin-bottom: 50px;
 
 }
 
@@ -649,7 +650,7 @@ justify-content: center;
   margin-right: 30px;
   margin-bottom: 30px;
   width: calc((100% - (2 * 30px)) / 3);
-border-bottom: 1px solid var(--portfolio-border);
+
 }
 
 .portfolio-element > .link{
@@ -661,6 +662,7 @@ border-bottom: 1px solid var(--portfolio-border);
   padding: 20px 24px;
   border-left: 1px solid var(--portfolio-border);
     border-right: 1px solid var(--portfolio-border);
+    border-bottom: 1px solid var(--portfolio-border);
 }
 
 .projects-list:hover,
